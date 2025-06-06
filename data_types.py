@@ -60,7 +60,7 @@ my_range = range(1990, 2025, 1)
 # you can either use the prebuilt "bytes()" function to make a byte list or
 # prefix a normal list with "b"
 my_bytes_1 = bytes([65, 83, 83])
-my_bytes_2 = b[84, 73, 84, 83]
+my_bytes_2 = b"titties"
 
 # bytes is, like range, immutable, so cool for com commands and other stuff, but if you need to change stuff...
 # you'd use our next type, BYTEARRAY
@@ -95,7 +95,7 @@ my_dictionary = {
 # they work in a similar way but the stuff inside is not indexed, instead, you get an iterator and are told "good luck"
 # oh, also, all the stuff inside has to be a literal (aka, immutable/constant value, can't be variables)
 
-my_set = {[0, "why", 4.20, False], my_bytes, "oh no", my_range}
+my_set = {[0, "why", 4.20, False], my_bytes_1, "oh no", my_range}
 
 # see? this is what happens when you stray too far from god
 # HERESY
